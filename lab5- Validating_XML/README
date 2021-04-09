@@ -42,7 +42,5 @@ If I were to complete part 3,I would use division function as division is an eas
  To check for a stand-alone tag we must have an if condition where it will check to see if there is a "/" after the  characters or isalpha. If there is a "/" then it is a stand-alone tag if not it is not a stand-alone tag
 
 
-**** This lab was done with the help of the following links:
-https://www.tutorialspoint.com/data_structures_algorithms/stack_program_in_c.htm
-https://stackoverflow.com/questions/29586564/what-does-the-97-mean-in-the-following-code
+
   
