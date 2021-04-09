@@ -1,0 +1,18 @@
+Huzaifa Ali 500901727 section 02
+
+//State Machine Description 
+//A A B
+//B E H
+//C G A
+//D H G
+//E F D
+//F A D
+//G C F
+//H E C
+
+//starting state = A 
+
+During the lab I came across many obstacles. For starters, I was not able to figure out how to implement the garbage and delete command. I have attempted to implement the 
+delete command but I realized it will be very difficult without the garbage command. I was able to figure out how to implment 3 commands out of 6 which are no argument, 
+one/zero command and print command. I implemented the change command but i was not able to see the changes when running the program. I have learned a lot during this lab with 
+the help of peers, lecture videos and the internet. I figured out how to use pointers in arrays and figured out how to use structures.  
