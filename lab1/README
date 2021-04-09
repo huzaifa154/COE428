@@ -1,0 +1,32 @@
+Suppose you were given an object module (with no access to source code) that sorted an array of integers very efficiently. However, the sort function in the object module must be invoked with the following signature:
+								
+														betterSort(int data[], first, last);
+
+where the array to sort is data and the parameters first and last give the indices of the portion of the array that is to be sorted. How could you write a mySort() function with the signature used in this lab that could exploit the better sorting function in the supplied object module?
+
+ANSWER: 
+
+INSERTION-SORT
+
+betterSort(int data[], first, last);
+{  
+    int i, keyA, keyB, j;  
+    for (j = 1; j < last -1; j++) /* j goes from 1 to number before the last number*/
+    {  
+        keyA = data[j];  
+        for(i = j + 1; i< last; i++) 
+  		{
+			if(A[i] < A[keyA])
+			{
+				first = data[keyA]
+				last = data[j]
+				keyA = i;
+				keyB = first;
+				first =last;
+				last = keyB; 
+      		}
+         
+    	}  
+	}  
+}
+
