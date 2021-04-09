@@ -1,0 +1,32 @@
+
+1. Brief Summary:
+
+	This lab was more or less straight forward. For insertionSort, I was able to use lab 1 mySort code with some changes. I learned 3 new tools to use in this lab which is myCompare, mySwap, and myCopy. myCompare is to compare 2 variables/arrays values. In addition, mySwap will swap the values of the 2 values presented. Lastly, myCopy will copy that information and will record the amount of times it has copied. 
+
+	mergeSort required more aid as implementing a merge sort was never done before. With the use of online tools as well as aid from the lab manual, I was able to implement the mergeSort function using myCompare,mySwap and myCopy. Initially i was presented with many errors when compiling, I learned that pluma doesn't allow to initialize variables inside a for loop. Lastly, during compilation, I learned to compile all files together we can use a function called "make all" in the terminal. 
+
+ 
+2. Analysis 
+
+Since BestCase is when the array is already sorted, it requires the least amount of swaps,and least amount of time. On the contrary, WorstCase is when the array is ordered reversed and therfore it must take the most amount of time and swaps to sort it in order. Lastly, AverageCase is when the array is a mix of both (ordered randomly) and therfore will take less time and swaps than worstcase but more time and swaps than best case. 
+
+insertionSort: 
+For BestCase, (1,2,3,4,5) , the result was 4 comparisons, 0 swaps, and 5 copy operations. time complexity = Omega(n). Equations:  Comparisons = n-1 ; Swaps = 0   Copy Operations: 2n-2
+
+For AverageCase, (1,3,2,5,4) , the result was 6 comparisons, 2 swaps, and 5 copy operations. time complexity =  Omega(n) < x < O(n^2). Equations: Comparisons =  (n-1+n(n-1)/2)/2; Swaps = n(n-1)/2;	Copy Operations: 2n-2
+
+For WorstCase, (5,4,3,2,1) , the result was 10 comparisons, 10 swaps, and 5 copy operations. time complexity =  O(n^2). Equations: Comparisons =n(n-1)/2;
+Swaps = n(n-1)/2; Copy Operations = 2n-2
+
+
+mergeSort:
+
+For BestCase, (1,2,3,4,5) , the result was 7 comparisons, 12 swaps, and 12 copy operations. time complexity =  O(n*log(n)) 
+
+For AverageCase, (1,3,2,5,4) , the result was 7 comparisons, 12 swaps, and 12 copy operations. time complexity =   O(n*log(n))
+
+For WorstCase, (5,4,3,2,1) , the result was 5 comparisons, 12 swaps, and 12 copy operations. time complexity =  O(n*log(n)) 
+
+Since the mergeSort is a binary tree, the time complexity is O(n*log(n)) and is consistant for all cases. 
+
+
