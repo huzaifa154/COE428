@@ -1,0 +1,9 @@
+During this lab, I have encountered numerous problems mainly in the intHeap.c file. Int stack, I was able to copy from lab 5 and the main.c was easy as I had to scan the nodes and just print out the code from intHeap in an organized manner.
+
+While doing intHeap.c , the first major problem I encountered was that the tags are not printing in reverse-sorted order and sorted order. At least the program is able to read the nodes correctly and assign proper ID's to each node. This lab was very difficult to complete as i had many final assignments to complete as well as study for finals. 
+
+Out of the 3 requirements, I was able to complete 2 of them as my program can read integers and print the heap tree structure as XML.
+1.Read integers from stdin and add each one to a Heap.
+2.Print the Heap tree structure as XML.
+3.Print the integers in both sorted and reverse-sorted order.
+
